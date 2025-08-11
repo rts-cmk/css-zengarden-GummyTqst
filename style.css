@@ -8,6 +8,25 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
+
+/* Base resets */
+body {
+	color: #fff;
+	overflow: auto;
+	padding: 0 0 25px 0;
+	border: none;
+}
+
+h1, h2, h3 {
+	display: block;
+	padding: 20px 15px 0 15px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+
 /* basic elements */
 html {
 	overflow: hidden;
@@ -35,4 +54,56 @@ body {
 	width: 100%;
 	height: 100%;
 	background: transparent;
+}
+
+header {
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	display: block;
+	margin: 0 0 0 -190px;
+	padding: 0;
+	z-index: 4;
+	width: 450px;
+	background: url(img/layer-middle.svg) repeat-y center top;
+	background-color: transparent;
+	background-size: 450px auto;
+	transform: scale(0.8);
+
+	&::after {
+		bottom: -41px;
+		height: 41px;
+		background:  transparent url(img/layer-frame.svg) no-repeat center bottom;
+		background-size: 450px auto;
+	}
+
+	&::before {
+		top: -600px;
+		height: 600px;
+		background: url(img/hook3.svg) no-repeat center bottom, url(img/layer-frame.svg) no-repeat center 559px;
+		background-size: 360px auto, 450px auto;
+	}
+}
+
+header::before,
+header::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 450px;
+}
+
+h1 {
+	margin: 0;
+	padding: 40px 70px 10px 70px;
+	font-size: 60px;
+	line-height: 60px;
+}
+
+h2 {
+	padding: 10px 70px 40px 70px;
+	font-size: 16px;
+	line-height: 16px;
 }
