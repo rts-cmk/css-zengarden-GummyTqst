@@ -10,3 +10,169 @@
 
 
 /* Base resets */
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: url(img/water.png) repeat-x top;
+	background-color: #F0ECD6;
+}
+
+.page-wrapper {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	background: url(img/squid-blowfish.png) no-repeat top;
+	position: relative;
+	z-index: 4;
+}
+
+.intro {
+	margin-top: 0;
+	padding-top: 130px;
+}
+
+header h1 {
+	background: url(img/title.png) no-repeat;
+	height: 195px;
+	width: 290px;
+	overflow: hidden;
+	margin-top: 0;
+	position: absolute;
+	text-indent: -999px;
+	white-space: nowrap;
+}
+
+header h2 {
+	background: url(img/beauty.png) no-repeat;
+}
+
+header {
+	z-index: 5;
+	margin-top: -130px;
+	position: absolute;
+}
+
+summary {
+	background: url(img/top.png) no-repeat;
+}
+
+.preamble {
+	background: url(img/back.png);
+}
+
+.preamble h3 {
+	background: url(img/enlightenment.png);
+}
+
+.supporting {
+	background: url(img/end.png) no-repeat bottom;
+}
+
+.explanation {
+	background: url(img/back.png);
+}
+
+.explanation h3 {
+	background: url(img/about.png) no-repeat;
+}
+
+.participation {
+	background: url(img/back.png);
+}
+
+.participation h3 {
+	background: url(img/participation.png) no-repeat;
+}
+
+.benefits {
+	background: url(img/back.png);
+}
+
+.benefits h3 {
+	background: url(img/benefits.png) no-repeat;
+}
+
+.requirements {
+	background: url(img/back.png);
+}
+
+.requirements h3 {
+	background: url(img/requirements.png) no-repeat;
+}
+
+
+
+footer {
+	background: url(img/bottom.png) no-repeat;
+}
+
+
+.sidebar {
+	background: url(img/menu-top.png) no-repeat top;
+	width: 225px;
+	padding-top: 100px;
+	position: absolute;
+	top: 300px;
+	margin-left: 300px;
+}
+
+
+.sidebar ul {
+	list-style-image: url(img/bullet.png);
+	list-style-position: outside;
+}
+
+.design-selection {
+	background: url(img/menu-back.png);
+}
+
+.design-selection h3 {
+	background: url(img/select.png) no-repeat;
+}
+
+.design-archives {
+	background: url(img/menu-back.png);
+}
+.design-archives h3 {
+	background: url(img/archives.png) no-repeat;
+}
+
+.zen-resources {
+	background: url(img/menu-back.png);
+}
+.zen-resources h3 {
+	background: url(img/resources.png) no-repeat;
+}
+
+.sidebar .wrapper {
+	background: url(img/menu-end.png) no-repeat bottom;
+	padding-bottom: 352px;
+}
+
+.extra2 {
+	background: url(img/bottom.png) no-repeat center;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+
+.extra1 {
+	z-index: 2;
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	top: 1200px;
+	background: url(img/critters.png) no-repeat center;
+}
