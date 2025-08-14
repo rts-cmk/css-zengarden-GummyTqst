@@ -88,6 +88,7 @@ header {
 	background: url(img/top.png) no-repeat;
 	width: 385px;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .summary p:first-child {
@@ -107,6 +108,7 @@ header {
 	background: url(img/back.png);
 	width: 385px;
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .preamble h3 {
@@ -124,13 +126,15 @@ header {
 	width: 385px;
 	margin-top: 0;
 	text-align: center;
-	padding-bottom: 550px;
+	padding-bottom: 600px;
 	margin-bottom: 50px;
+	overflow: hidden;
 }
 
 .explanation {
 	background: url(img/back.png);
 	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .explanation h3 {
@@ -145,6 +149,8 @@ header {
 
 .participation {
 	background: url(img/back.png);
+	padding-bottom: 20px;
+	overflow: hidden;
 }
 
 .participation h3 {
@@ -159,6 +165,7 @@ header {
 
 .benefits {
 	background: url(img/back.png);
+	overflow: hidden;
 }
 
 .benefits h3 {
@@ -173,6 +180,7 @@ header {
 
 .requirements {
 	background: url(img/back.png);
+	overflow: hidden;
 }
 
 .requirements h3 {
@@ -185,6 +193,12 @@ header {
 	white-space: nowrap;
 }
 
+.requirements p:nth-child(6) {
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	padding-top: 45px;
+	background: url(img/huzzah.png) no-repeat center top;
+}
 
 
 footer {
